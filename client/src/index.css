@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&family=Poppins:wght@500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.gradient {
+    background: linear-gradient(to bottom, #042A53 85%, #000000 15%);
+}
+/* .linear-gradient1 {
+    background: linear-gradient(
+
+    );
+} */
+
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    cursor: pointer;
+    filter: invert(0.8);
+  }
